@@ -1,19 +1,23 @@
 #include <stdio.h>
-
-int main(void)
+ 
+int main()
 {
-int a,b,n,sum=0;
-scanf("%d",&a);
-n=a;
-while(a>0)
-{
-b=n%10;
-sum=sum*10+b;
-n=n/10;
-}
-if(a==sum)
-printf("yes");
-else
-printf("no");
-return 0;
+   int n, rev = 0, temp;
+   scanf("%d",&n);
+ 
+   t = n;
+ 
+   while( t != 0 )
+   {
+      rev = rev * 10;
+      rev = rev + t%10;
+      t = t/10;
+   }
+ 
+   if ( n == rev )
+      printf("yes");
+   else
+      printf("no");
+ 
+   return 0;
 }
