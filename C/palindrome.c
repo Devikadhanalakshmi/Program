@@ -2,7 +2,7 @@
  
 int main()
 {
-   int n, rev = 0, temp;
+   int n, rev = 0, t;
    scanf("%d",&n);
  
    t = n;
