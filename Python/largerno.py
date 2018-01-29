@@ -3,9 +3,10 @@ while True:
 	b = input()
 	c = input()
 	max = a
-		if max < b:
-			max=b
-      elif max<c
-      max=c
-      print max
-		
+        if max < b:
+	    max=b
+        elif max < c:
+            max=c
+        print max
+
+        
